@@ -1,0 +1,20 @@
+<div class="card">
+  <div class="row">
+    <div class="col-sm-3 col-sm-offset-3">
+      <img class="img-responsive img-circle user_profile" src="{{ user_image }}"
+        id="user_image">
+    </div>
+    <div class="col-sm-3">
+      <h2 id="user_name">{{ user_name }}</h2>
+    </div>
+    <div class="col-sm-12">
+      <p id="description" {% if blur: %}class="blur" {% endif %}>
+        {{ description.0 }}</p>
+      <p id="description" {% if blur: %}class="blur" {% endif %}>
+        {{ description.1 }}</p>
+      <p id="description" {% if blur: %}class="blur" {% endif %}>
+        <a href={{ description.2 }} {% if blur: %}class="blur" {% endif %}>Voir
+          fiche ({{ description.2 }})</a></p>
+    </div>
+  </div>
+</div>
