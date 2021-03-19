@@ -33,7 +33,7 @@ nose2==0.9.1
 numpy==1.17.4
 packaging==19.2
 pefile==2019.4.18
-Pillow==6.2.1
+Pillow==8.1.1
 pip-upgrade-all==1.1.1
 pluggy==0.13.1
 psycopg2==2.8.4
